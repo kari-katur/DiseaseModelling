@@ -154,7 +154,8 @@ a:hover {
     margin-bottom: 10px;
 }
 /* ==================== VIDEOS ========================================*/
-.content-video {
+.content-video,
+.video-figure iframe {
   width: 100%;
   max-width: 800px;
   display: block;
