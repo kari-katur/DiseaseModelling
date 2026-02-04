@@ -397,12 +397,17 @@
     We also adapted the structure of the mechanistic model to real patient data and developed a Bayesian mechanistic model tailored to each individual, that can predict the next day’s AD severity score given their score and treatments used on that day. </p>
     <p> I would like to discuss hopes and challenges in designing personalized treatment strategies, for which detailed dynamic data is required but not often available.</p>
     <figure class="video-figure">
-      <video class="content-video" controls>
-      <source src="../static/videos/13_eMed Seminar_Tanaka_ June 07 2023.mp4" type="video/mp4">
-      Dein Browser unterstützt dieses Video nicht.
-      </video>
-      <figcaption>Video</figcaption>
+    <iframe
+    src="https://nextcloud.mdc-berlin.de/index.php/apps/files/files/4462996?dir=/videos&editing=false&openfile=true"
+    width="100%"
+    height="360"
+    frameborder="0"
+    allowfullscreen>
+    </iframe>
+    <figcaption>Recorded eMed Seminar – June 7, 2023</figcaption>
     </figure>
+
+    
   </div>
 </div>
 
