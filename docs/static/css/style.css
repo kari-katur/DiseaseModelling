@@ -2,12 +2,15 @@
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 200;
-    max-width: 1100px;
-    margin: auto;
-    padding: 20px;
     background-color: #FFFFFF;
     color: #280003;
     line-height: 1.6;
+    margin: 0;          /* statt auto */
+}
+.wrapper {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 40px;
 }
 main {
     margin-top: 30px;
@@ -89,13 +92,18 @@ a:hover {
 }
 /* ========================== Boxen =================*/
 .page-layout {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
+  max-width: 1500px;
+  margin: 50px auto;
+  padding: 0 40px;
+
+  display: grid;
+  grid-template-columns: 280px 1fr 320px;
+  gap: 3rem;
+  align-items: start;
 }
 
 .main-content {
-  flex: 3;
+  /*flex: 3;*/
 }
 
 .side-info {
@@ -112,15 +120,12 @@ a:hover {
   font-size: 0.95rem;
 }
 
-.box-1 {
-  background-color: #EBE4E7;
-}
-
-.box-2 {
-  background-color: #EBE4E7;
-}
-.box-3{
-  background-color: #EBE4E7;
+.box-1:hover,
+.box-2:hover,
+.box-3:hover,
+.box-4:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-color: #9BC996;  /* optional: Rahmenfarbe beim Hover ändern */
 }
 
 /* ========================= Dropdown / Accordion ========================= */
